@@ -32,7 +32,7 @@ aws --profile ${PROFILE} --region ${REGION} sts get-caller-identity
     - VPC ID
     - Public subnet ID(s) where the Foward Proxys are placed.
     - Public or private subnet ID(s) where the NLB is placed.
-- Amazon Linux2(arm) AMI ID
+- Amazon Linux2(x86_64) AMI ID
     - By GUI:
         - Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/
         - From the console dashboard, choose Launch Instance.
